@@ -1,0 +1,62 @@
+Q1. What is HTML, and how is an HTML document structured?
+Ans-: HTML (Hypertext Markup Language) is the standard language used to create and structure content on the web. It defines the structure of web pages by using various tags and elements to mark up the text, images, links, forms, and other content. HTML tells the web browser how to display the content, though it doesn’t deal with styling (that's done with CSS) or interactivity (handled by JavaScript).
+      Structure of an HTML Document -:
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My First Web Page</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <h1>Welcome to My Web Page!</h1>
+            <p>This is a paragraph of text on my web page.</p>
+            <a href="https://www.example.com">Click here to visit a website</a>
+        </body>
+        </html>
+
+Q4. What is semantic HTML? List some semantic and non-semantic elements.
+Ans-: Semantic HTML, also known as semantic markup, refers to the use of HTML tags that convey the semantics/meaning of the content contained within them. Semantic HTML provides more information that helps to convey the roles and importance of different parts of the web page. It makes the HTML more comprehensible by defining webpages’ different sections and layouts.
+      
+      Semantic HTML Elements
+
+        These elements describe the content they enclose and provide more context to both browsers and developers.
+
+            <header>: Represents the header section of a page or section, typically containing navigation links, logos, or introductory content.
+            <footer>: Defines the footer section of a page or section, often containing copyright information, contact links, or other footer-specific content.
+            <article>: Represents a self-contained piece of content that could be distributed and reused independently (e.g., a blog post or news article).
+            <section>: Defines a section of content, typically for grouping related content within a page (e.g., a section of an article).
+            <nav>: Specifies navigation links or menus.
+            <aside>: Represents content that is tangentially related to the content around it (e.g., a sidebar or a related links section).
+            <figure>: Specifies content like images, illustrations, diagrams, or code snippets, usually accompanied by a caption (<figcaption>).
+
+        Non-Semantic HTML Elements
+
+        These elements don't provide any specific meaning or context about the content they enclose. They are used mainly for structuring or grouping content.
+
+            <div>: A generic container for grouping content together. It doesn't specify the type of content it holds.
+            <span>: A generic inline container for grouping content. It doesn't add any meaning to the content but is useful for styling purposes or applying classes/IDs.
+            <b>: Bold text, but doesn't imply any special meaning about the text (unlike <strong>, which implies importance).
+            <i>: Italic text, but doesn't imply any semantic meaning (unlike <em>, which implies emphasis).
+            <center>: Used to center content (this is considered outdated and non-semantic; modern CSS should be used instead).
+            <font>: Used to specify font size, color, or face (deprecated in favor of CSS).
+
+Q5. Why do we use meta tags?
+Ans -: Meta tags are HTML elements placed within the <head> section of a webpage to provide metadata that is not visible on the page but is used by browsers, search engines, and social media platforms. They serve various purposes such as improving SEO, enhancing user experience, and controlling page behavior.
+
+        1. SEO Optimization: Meta tags like <meta name="description" content="..."> help search engines understand the page content, improving its ranking.
+        2. Mobile Responsiveness: The <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag ensures the page adapts to different screen sizes.
+        3. Social Media Integration: Tags like <meta property="og:title" content="..."> optimize how the page appears when shared on social media.
+        4. Character Encoding: The <meta charset="UTF-8"> tag ensures the correct display of special characters.
+
+Q6. What are IDs and classes in HTML, and how do they differ?
+Ans. In HTML, IDs and classes are attributes used to identify and style elements, but they serve different purposes.
+
+        ID: An ID is a unique identifier used to select a single element on a webpage. It must be used only once per page and is often used for specific targeting in CSS and JavaScript.
+            Syntax: <div id="uniqueElement">
+            Example: In CSS, #uniqueElement { color: red; }
+
+        Class: A class is a reusable identifier that can be applied to multiple elements on the same page. It allows for grouping elements that share the same styling or behavior.
+            Syntax: <div class="sharedStyle">
+            Example: In CSS, .sharedStyle { color: blue; }
