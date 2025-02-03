@@ -15,7 +15,11 @@ Ans-: HTML (Hypertext Markup Language) is the standard language used to create a
             <a href="https://www.example.com">Click here to visit a website</a>
         </body>
         </html>
-
+Q2. Write the HTML code to create a table with 4 columns (ID, Employee Name, Designation, Department) and at least 6 rows.
+Ans-: Code is in Q2.html
+Q3. Create HTML for web-page
+https://drive.google.com/drive/folders/1LNOUCAReojt9CUVDR138gneZZVUArLNp
+Ans. https://amanttn6693.github.io/8268-Aman-Gupta-Introduction-to-HTML-Feb-2025/
 Q4. What is semantic HTML? List some semantic and non-semantic elements.
 Ans-: Semantic HTML, also known as semantic markup, refers to the use of HTML tags that convey the semantics/meaning of the content contained within them. Semantic HTML provides more information that helps to convey the roles and importance of different parts of the web page. It makes the HTML more comprehensible by defining webpages’ different sections and layouts.
       
